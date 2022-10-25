@@ -1,3 +1,8 @@
+%Kaleb Nails
+%Created: 3/~/2022
+%Modified: 10/25/2022
+%Purpose: put a dot on live video feed where the most change in pixels happen
+
 clear, clc,close;
 load('cameraParams.mat')
 cam = webcam('Integrated Webcam');
