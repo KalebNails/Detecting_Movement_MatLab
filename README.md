@@ -4,7 +4,7 @@ The general purpose of this file of object detection in Matlab. A large amount o
 # If you run into errors #
 They are most likely because the code calls for files and parameters that are on my laptop. To calibrate your camera use the camera callibration app on matlab. Your camera lense will deform your image, this app will create the parameters to undeform it.
 
-#Glossary: #
+# Glossary: #
 
 ## Average_Circle_from_points.m ##
 This is a function that is called in grey_pixels_and_circles.m  
