@@ -15,3 +15,8 @@ This is a non-exhastive attempt at detecting circle using Matlab and a camera. T
 
 ## greyscalepixelchange.m
 This puts a dot in a live feed. This dot is at the average of all of the changed pixel values. If you wave your hand it should roughly be on your hand.
+
+
+## ard_reciever.py & distance_angle.py
+This was part of personal project that I'm taking a small break from. basically I had a TF-luna lidar and a motor above it with a mirror attached spining. This should theoretically give you a plane of distances. I believe ard_reciever is a an earlier step, and ard_reciever eventually gets integrated into distance_angle. The setup to my memory was I had the arduino controlling a motor with an incremental encoder (this was done through an H-bridge), and the arduino sent the "angle" (this was calculated with rough math and estimates) through serial port to a connected tower. Then a raspberry pi would recorded the TF luna data, and that was connected through eithernet to the tower. Then I would just use socket over the local network to send the data to the tower. I determined that the incremental encoder has too much error, so i was gonna switch to a absolute encoder, but I suddenly had a 4 month vacation called summer and haven't taken another wing at it for a moment. In the future I need to switch to an absolute encoder, i want to use a beefier motor, and i actually want to 3d print a mount for all of this stuff. 
+
