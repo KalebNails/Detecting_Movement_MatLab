@@ -1,6 +1,6 @@
 ######################################################
 # Copyright (c) 2021 Maker Portal LLC
-# Author: Joshua Hrisko
+# Original Author: Joshua Hrisko
 ######################################################
 #
 # TF-Luna Mini LiDAR wired to a Raspberry Pi via UART
@@ -8,7 +8,11 @@
 #
 #
 ######################################################
-#
+# Modified by: James Brophy and Kaleb Nails
+######################################################
+
+
+
 import serial,time
 import numpy as np
 import csv
